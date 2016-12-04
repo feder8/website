@@ -1,0 +1,12 @@
+.cont {
+    width: 90%;
+    margin: auto;
+}
+
+.card-image-faq {
+	width: 144px !important;
+}
+
+table td {
+    min-width: 150px;
+}
