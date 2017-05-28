@@ -10,3 +10,7 @@
 table td {
     min-width: 150px;
 }
+
+img.slider-image {
+    filter: brightness(40%)
+}
