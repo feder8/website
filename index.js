@@ -47,7 +47,7 @@ function load_doc_pdf() {
 	var doc_name = window.location.href.split("/")[6];
 	console.log("Loading doc: " + doc_path + "/" + doc_name);
 	var docurl = "https://raw.githubusercontent.com/feder8/documentation/master/" + doc_path + "/" + doc_name + ".pdf";
-	var docembed = "<iframe src='http://docs.google.com/gview?url=" + docurl + "&embedded=true' style='width:718px; height:700px;' frameborder='0'></iframe>";
+	var docembed = "<iframe src='//docs.google.com/gview?url=" + docurl + "&embedded=true' style='width:718px; height:700px;' frameborder='0'></iframe>";
 	var docurl_text = "Если просмотр не загружается - <a href='" + docurl + "'>скачайте документ</a>"
 	$("#docdata").html(docembed);
 	$("#docurl").html(docurl_text);
